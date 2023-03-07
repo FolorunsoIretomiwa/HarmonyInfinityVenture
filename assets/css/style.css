@@ -1,0 +1,107 @@
+/* General Style */
+body,
+ul,
+li,
+div,
+input,
+label,
+p,
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+
+.h1 {
+  font-size: 48px !important;
+  font-weight: 200;
+}
+.h2 {
+  font-size: 30px !important;
+  font-weight: 300;
+}
+
+.text-purple {
+  color: #ae3ec9;
+}
+
+.bg-purple {
+  background-color: #ae3ec9;
+}
+
+/* End General style */
+/* Start Nav */
+.logo {
+  font-weight: 500 !important;
+}
+
+.logo:hover {
+  color: #862e9c;
+}
+
+/* .logo:hover {
+  color: #ae3ec9;
+} */
+
+@media (min-width: 768px) {
+  #Harmony_mainnav .navbar-nav {
+    max-width: 550px;
+  }
+}
+
+.Ire-navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 9999px;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.nav-link-Ire {
+  color: #212934;
+}
+
+.nav-link-Ire:hover {
+  color: #ae3ec9 !important;
+}
+
+/* End Nav */
+/* Start Carousel */
+#harmony-infinity-carousel {
+  background: #efefef !important;
+}
+
+.carousel {
+  position: relative !important;
+}
+
+/* End Carousel */
+/* Start Categories of the Month */
+.shop-btn:hover {
+  color: #fff;
+  background-color: #862e9c;
+}
+
+.call {
+  stroke: #fff;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+/* End Categories of the month */
+/* Start Footer */
+.text-light {
+  color: #cfd6e1 !important;
+}
+
+.footer-link {
+  color: #dcdde1;
+}
+
+.nav-link-ire2:hover {
+  color: #ae3ec9;
+}
+
+#Harmonyinfinity_footer .border-light {
+  color: #2d343f !important;
+}
