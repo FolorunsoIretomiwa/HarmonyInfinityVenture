@@ -88,6 +88,14 @@ a {
   display: inline-block;
 }
 
+.view-btn {
+  background-color: #fff !important;
+}
+
+.View-btn:hover {
+  color: #000;
+  background-color: #e7e9e1;
+}
 /* End Categories of the month */
 /* Start Footer */
 .text-light {
